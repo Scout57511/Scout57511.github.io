@@ -1,9 +1,24 @@
 html{
   background-color: skyblue;
 }
-h1{
+
+
+nav{
+  border: 5px ridge red;
+}
+
+li{
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0%, 0%, 52.1%, .15);
+}
+
+.pink {
   border: 5px dotted pink;
 }
+
 .gallery {
   display: flex;
   justify-content: space-around;
